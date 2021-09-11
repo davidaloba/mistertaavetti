@@ -3,7 +3,7 @@ const userData = {
   name: "David Aloba",
   designation: "Full-Stack Developer",
   avatarUrl: "/avatar.jpg",
-  email: "taavettidigital@gmail.com",
+  email: "mistertaavetti@gmail.com",
   phone: "+234 812 419 4919",
   address: "Illupeju, Lagos, Nigeria.",
   projects: [
