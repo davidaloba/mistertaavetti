@@ -65,7 +65,7 @@ export default function AboutMe() {
               Social Links
             </h1>
             <div className="mt-4 ml-4">
-              <div className="flex flex-row justify-start items-center ">
+              {/* <div className="flex flex-row justify-start items-center ">
                 <a
                   href={userData.socialLinks.facebook}
                   className="flex flex-row items-center space-x-4 group"
@@ -76,19 +76,7 @@ export default function AboutMe() {
                     Facebook
                   </p>
                 </a>
-              </div>
-              <div className="flex flex-row justify-start items-center">
-                <a
-                  href={userData.socialLinks.twitter}
-                  className="flex flex-row items-center space-x-4 group"
-                >
-                  <div className="my-4">&rarr;</div>
-                  <p className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
-                    <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300"></div>
-                    Twitter
-                  </p>
-                </a>
-              </div>
+              </div> */}
               <div className="flex flex-row justify-start items-center">
                 <a
                   href={userData.socialLinks.github}
@@ -101,6 +89,7 @@ export default function AboutMe() {
                   </p>
                 </a>
               </div>
+
               <div className="flex flex-row justify-start items-center">
                 <a
                   href={userData.socialLinks.linkedin}
@@ -125,6 +114,18 @@ export default function AboutMe() {
                   </p>
                 </a>
               </div>
+              <div className="flex flex-row justify-start items-center">
+                <a
+                  href={userData.socialLinks.twitter}
+                  className="flex flex-row items-center space-x-4 group"
+                >
+                  <div className="my-4">&rarr;</div>
+                  <p className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
+                    <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300"></div>
+                    Twitter
+                  </p>
+                </a>
+              </div>
             </div>
           </div>
           {/* Text area */}
@@ -143,10 +144,6 @@ export default function AboutMe() {
             </h1>
             <div className="flex flex-row flex-wrap mt-8">
               <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/wordpress/wordpress.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"
                 className="h-20 w-20 mx-4 my-4"
               />
@@ -155,7 +152,15 @@ export default function AboutMe() {
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
+                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/tailwind/tailwind.png"
+                className="h-20 w-20 mx-4 my-4"
+              />
+              <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"
+                className="h-20 w-20 mx-4 my-4"
+              />
+              <img
+                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png"
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
@@ -163,35 +168,24 @@ export default function AboutMe() {
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
+                src="https://raw.githubusercontent.com/github/explore/28b02bbc9ad9f7a503c43775aebeb515dc2da5fc/topics/nextjs/nextjs.png"
+                className="h-20 w-20 mx-4 my-4"
+              />
+              <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"
                 className="h-20 w-20 mx-4 my-4"
               />
               {/* <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/java/java.png"
+                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png"
                 className="h-20 w-20 mx-4 my-4"
               /> */}
-              {/* <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png"
-                className="h-20 w-20 mx-4 my-4"
-              /> */}
-              {/* <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/angular/angular.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
+              {/* 
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/vue/vue.png"
                 className="h-20 w-20 mx-4 my-4"
               /> */}
               {/* <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/firebase/firebase.png"
-                className="h-20 w-20 mx-4 my-4"
-              /> */}
-              {/* <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png"
-                className="h-20 w-20 mx-4 my-4"
-              /> */}
-              {/* <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png"
                 className="h-20 w-20 mx-4 my-4"
               /> */}
             </div>

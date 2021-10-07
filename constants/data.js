@@ -71,25 +71,32 @@ const userData = {
   },
   experience: [
     {
+      title: "Front-end Developer",
+      company: "Tickeo",
+      year: "2021",
+      companyLink: "https://rpr.io",
+      desc: "Developing the user interface app for a blockchain ticketing solution using React, TailwindCSS, TypeScript, and PouchDB.",
+    },
+    {
       title: "Co-founder, CXO",
       company: "Gobuddie MVMO",
       year: "2021",
       companyLink: "https://gobuddie.ng",
-      desc: "Responsible for product management & development, customer experience, customer care & support, and marketing & promotions.",
+      desc: "Managing the product development, customer experience, and marketing & promotions teams.",
+    },
+    {
+      title: "Project Manager",
+      company: "Three Serve Innovations",
+      year: "2020",
+      companyLink: "#",
+      desc: "I managed a team of designers and developers to build a custom ecommerce solution.",
     },
     {
       title: "Web Designer",
       company: "Taavetti Digital",
       year: "2019",
       companyLink: "https://taavetti.com.ng",
-      desc: "I connect with the target audiences of brands and business to understand them and their goals. Then using these insights, I design growth-driven websites that attracts and connects with them, earns their trust, and influences them to take desired actions.",
-    },
-    {
-      title: "Project Manager",
-      company: "Three Serve Innovations",
-      year: "2020",
-      companyLink: "https://algochurn.com",
-      desc: "I managed a team of designers and developers to deliver a custom ecommerce solution.",
+      desc: "I design growth-driven websites that attracts and connects with website users, earns their trust, and influences them to take desired actions. I connect with the target audiences of brands and business to understand them and their goals. With these insight, I create delightful experiences for them in digital spaces.",
     },
     {
       title: "IT Manager",
