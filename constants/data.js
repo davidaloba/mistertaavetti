@@ -85,7 +85,7 @@ const userData = {
   ],
   about: {
     title:
-      "I am passionate about scaling the impact of founders and creators using technology — by creating delightful and functional user experiences across digital channels",
+      "I am passionate about scaling the impact of founders and creators using technology — by creating delightful and functional experiences for target users and audiences across digital channels",
     description: [
       `I started out designing and building websites with WordPress in 2016. Over the past 6 years, I have designed and built various web user interfaces and experiences using WordPress, HTML, CSS & JavaScript – first, as a part time freelancer and then full time since March 2020.`,
       `Over the years I have developed my digital skills to include digital marketing, product design, project management, and front-end development libraries like bootstrap and React.`,
@@ -94,8 +94,8 @@ const userData = {
       `My "BIG WHY" is to scale the impact of solutions, especilly for & by Africans. My skills and experience equips me with the ability to help founders and creators do just that.`,
       `If you are a solution provider looking for someone with the talent, skills, and sense of personal responsibility for the growth of your company to work with, connect with me and let us change the world!`,
     ],
-    currentProject: "Tickeo",
-    currentProjectUrl: "https://rpr.com",
+    currentProject: "Omega Gospel TV",
+    currentProjectUrl: "https://omegagospeltv.com",
   },
   experience: [
     {
