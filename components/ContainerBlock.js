@@ -8,7 +8,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
   const router = useRouter();
 
   const meta = {
-    title: "mistertaavetti - Developer, Designer, and Manager",
+    title: "davidaloba - Developer, Designer, and Manager",
     description: `I've been building websites for 5 years straight. Get in touch with me to know more.`,
     image: "/avatar.png",
     type: "website",
@@ -34,7 +34,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
         <meta property="og:title" content={meta.title} />
         <meta property="og:image" content={meta.image} />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@mistertaavetti" />
+        <meta name="twitter:site" content="@davidaloba" />
         <meta name="twitter:title" content={meta.title} />
         <meta name="twitter:description" content={meta.description} />
         <meta name="twitter:image" content={meta.image} />
