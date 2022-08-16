@@ -8,6 +8,31 @@ const userData = {
   address: "Illupeju, Lagos, Nigeria.",
   projects: [
     {
+      title: "Scent of Christ Church",
+      link: "https://scentofchrist.org",
+      imgUrl: "/socc.png",
+    },
+    {
+      title: "Reparation Arts",
+      link: "https://reparationarts.com",
+      imgUrl: "/rpr.png",
+    },
+    {
+      title: "Oniru Royal Beach",
+      link: "https://oniruroyalbeach.com",
+      imgUrl: "/oniru.png",
+    },
+    {
+      title: "Elev8",
+      link: "https://elev8.ng",
+      imgUrl: "/elev8.png",
+    },
+    {
+      title: "Rugged Body (redesign)",
+      link: "https://ruggedbody.com.ng",
+      imgUrl: "/rugged1.png",
+    },
+    {
       title: "Defining Green Capital",
       link: "https://defininggreencapital.com",
       imgUrl: "/dgc.png",

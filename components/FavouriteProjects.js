@@ -35,17 +35,17 @@ export default function FavouriteProjects() {
         <div className="grid md:grid-cols-3 gap-8 lg:-mt-8 pb-40">
           {/* Single card */}
           <a
-            href="https://yanme.org"
+            href="https://oniruroyalbeach.com"
             className="w-full block col-span-3 shadow-2xl"
           >
             <div className="relative overflow-hidden">
               <img
-                src="/yanme-1.png"
-                alt="yanme"
+                src="/Oniru-Royal-Beach.png"
+                alt="oniru"
                 className="transform hover:scale-125 transition duration-2000 ease-out"
               />
               <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-blue-900 rounded-md px-2">
-                YanMe TV
+                Oniru Royal Beach
               </h1>
               <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
                 01
@@ -54,18 +54,18 @@ export default function FavouriteProjects() {
           </a>
           {/* Single card */}
           <a
-            href="https://ruggedbody.com.ng"
+            href="https://elev8.ng"
             className="w-full block col-span-3  sm:col-span-2 shadow-2xl"
           >
             <div className="relative overflow-hidden">
               {/* <div className="overlay absolute inset-0 bg-black bg-opacity-70 z-10"></div> */}
               <img
-                src="/rugged-1.png"
-                alt="rugged"
+                src="/elev8.png"
+                alt="elev8"
                 className="transform hover:scale-125 transition duration-2000 ease-out"
               />
               <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-blue-900 rounded-md px-2">
-                Rugged Body
+                Elev8
               </h1>
               <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
                 02
@@ -73,25 +73,48 @@ export default function FavouriteProjects() {
             </div>
           </a>
           {/* Single card */}
-          <a
-            href="https://j4sltd.com"
-            className="w-full block col-span-3 sm:col-span-1  object-cover"
-          >
-            <div className="relative overflow-hidden shadow-2xl">
-              {/* <div className="overlay absolute inset-0 bg-black bg-opacity-70 z-10"></div> */}
-              <img
-                src="/Home-j4sltd.png"
-                alt="j4sltd"
-                className="transform hover:scale-125 transition duration-2000 ease-out object-cover shadow-2xl"
-              />
-              <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-blue-900 rounded-md px-2">
-                Jaad & 4Stones
-              </h1>
-              <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
-                03
-              </h1>
-            </div>
-          </a>
+          <div>
+            <a
+              href="https://scentofchrist.org"
+              className="w-full block col-span-3 sm:col-span-1  object-cover"
+            >
+              <div className="relative overflow-hidden shadow-2xl">
+                {/* <div className="overlay absolute inset-0 bg-black bg-opacity-70 z-10"></div> */}
+                <img
+                  src="/socc.png"
+                  alt="socc"
+                  className="transform hover:scale-125 transition duration-2000 ease-out object-cover shadow-2xl"
+                />
+                <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-blue-900 rounded-md px-2">
+                  Scent of Christ
+                </h1>
+                <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
+                  03
+                </h1>
+              </div>
+            </a>
+
+            <a
+              href="https://rugged.com.ng"
+              className="w-full block col-span-3 sm:col-span-1  object-cover mt-8"
+            >
+              <div className="relative overflow-hidden shadow-2xl">
+                {/* <div className="overlay absolute inset-0 bg-black bg-opacity-70 z-10"></div> */}
+                <img
+                  src="/rugged1.png"
+                  alt="rugged"
+                  className="transform hover:scale-125 transition duration-2000 ease-out object-cover shadow-2xl"
+                />
+                <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-blue-900 rounded-md px-2">
+                  Rugged Body
+                </h1>
+                <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
+                  03
+                </h1>
+              </div>
+            </a>
+          </div>
+
         </div>
       </div>
     </div>
